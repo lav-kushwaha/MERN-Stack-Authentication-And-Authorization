@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    padding-inline:120px;
+    background:transparent;
+}
+
+.navbar h2{
+    color: rgba(12, 14, 13, 0.763);
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap:2vw;
+}
+.link{
+    text-decoration: none;
+    font-size:1.4vw;
+    color: rgba(12, 14, 13, 0.763);
+    font-weight:600;
+    font-size:1.3vw;
+}
