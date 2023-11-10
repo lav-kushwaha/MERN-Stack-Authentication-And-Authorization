@@ -1,69 +1,69 @@
-.registeration-section{
+.registration-section{
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     height:calc(100vh - 60px);
-    background-color: #f1f1f1;
-
+    background-color:#f1f1f1;
 }
+
 .registration-container{
-    width:400px;
-    height:460px;
+    width:420px;
     background-color: #fff;
-    border-radius:2%;
+    border-radius:5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-}
 .register{
-    margin-top:2vw;
-    padding-inline:20px;
+   padding:20px;
 }
+
 .register h2{
-    font-size:2vw;
+    margin-bottom:15px;
     text-align: center;
 }
-.name{
-    margin-top:20px;
-}
-.name label{
+.register label{
+    display:block;
     font-size:20px;
+    margin-block:5px;
+    
 }
-
-.name input{
-    width:350px;
-    height:35px;
-    outline: none;
+.register input{
+    margin-bottom:20px;
+    height:40px;
+    width:380px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    padding:5px;
+    outline:none;
+    border-radius:3px;
+    padding-left:8px;
+    font-size:17px;
 }
-.buttons{
-    margin-top:30px;
-    padding-inline:20px;
-}
-.buttons p{
-    color:#555;
-    padding:18px;
-}
-.buttons>a{
-    color:#fff;
-    padding-inline:8.2vw;
-    padding-block:0.5vw;
+
+.buttons button {
     background-color: #4caf50;
-    border-radius:5px;
-}
-.login-buttons>a{
-    color:#fff;
-    padding-inline:10vw;
-    padding-block:0.5vw;
-    background-color:#c0c0c0;
-    border-radius:5px;
-}
+    color: white;
+    padding: 10px;
+    width:380px;
+    border: none;
+    border-radius: 4px;
+    font-size:15px;
+    cursor: pointer;
+    margin-bottom:20px;
+  }
 
-.buttons>a:hover{
+.buttons  button:hover {
     background-color: #45a049;
-}
+  }
 
+.login-buttons p{
+    font-size:20px;
+    display: inline;
+    margin-right:10px;
+    margin-left:39px;
+}  
+.login-buttons a {
+    color: #3498db;
+    text-decoration: none;
+    font-size:20px;
+    text-align: center;
 
-
-
+  }

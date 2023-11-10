@@ -10,9 +10,9 @@ const Login = () => {
         <h3>Login</h3>
         <form>
           <label htmlFor="email">Email</label>
-          <input type="email" id="email" name="email"placeholder="Email"/>
+          <input type="email" id="email" name="email"placeholder="Email" required/>
           <label htmlFor="password">Password</label>
-          <input type="password" id="password" name="password" placeholder="Password"/>
+          <input type="password" id="password" name="password" placeholder="Password" required/>
           <button type="submit">Login</button>
         </form>
         <p>Don't have an account? <Link to="/Signup">Sign Up</Link></p>
