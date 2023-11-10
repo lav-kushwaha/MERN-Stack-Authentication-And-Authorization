@@ -1,5 +1,5 @@
 # MERN-Stack-Authentication-And-Authorization
-MERN-Stack Authentication And Authorization With Login and Registration..
+MERN-Stack Authentication And Authorization With Login and Registration.
 
 # Frontend:
 - Utilized React.js for building the frontend.
