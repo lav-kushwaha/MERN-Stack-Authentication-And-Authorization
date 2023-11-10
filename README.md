@@ -10,7 +10,10 @@ MERN-Stack Authentication And Authorization With Login and Registration.
   - Login
   - Register
   - Dashboard
-  - 
+  - Home
+  - About
+  - Contact
+    
 # Backend :
 - Implementation of a login and registration system using the MERN stack (Mongo, Express, React, Node).
 - Role-based access control for both users and administrators.
