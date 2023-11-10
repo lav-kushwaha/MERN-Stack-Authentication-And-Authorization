@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
 import './Register.css';
-import { Link } from 'react-router-dom';
+import { Link,useNavigate} from 'react-router-dom';
 import axios from 'axios';
 
 const Register = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:3001/signup', { name, email, password });
+      await axios.post('http://localhost:3001/register', { name, email, password });
       alert('Account created successfully');
+      navigate('/Login');
+      
     } catch (error) {
       console.error('Registration error:', error);
     }
